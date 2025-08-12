@@ -1,0 +1,18 @@
+{
+  "name": "js-custom-tokenizer",
+  "version": "1.0.0",
+  "description": "A custom tokenizer CLI tool that learns vocab, supports ENCODE/DECODE, and handles special tokens.",
+  "type": "module",
+  "main": "tokenizer.js",
+  "bin": {
+    "tokenizer-cli": "./cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "author": "Narinder",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.5.0"
+  }
+}
